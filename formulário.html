@@ -13,12 +13,12 @@
         <legend>Conta</legend>
         <div>
             <label>Login:</label>
-            <input type="text"/>
+            <input type="text" name="login"/>
         </div>
      
         <div>
             <label>Senha:</label>
-            <input type="password"/>
+            <input type="password" name="senha"/>
         </div>
     </fieldset>
     
@@ -26,12 +26,12 @@
         <legend>Dados Pessoais</legend>
         <div>
             <label>Nome:</label>
-            <input type="text" placeholder="Ex:Walison" />
+            <input type="text" placeholder="Ex:Walison" name="nome" />
         </div>
         
         <div>
             <label>Email:</label>
-            <input type="email " />
+            <input type="email " name="email" required maxlength="256" minlength="5"/>
         </div>
         
         <div>
@@ -44,17 +44,17 @@
         
         <div>
             <label>Foto de perfil:</label>
-            <input type="file" accept="image/*"/>
+            <input type="file" accept="image/*" name="foto"/>
         </div>
         
         <div>
             <label>Data:</label>
-            <input type="date" />
+            <input type="date" name="data"/>
         </div>
         
         <div>
             <label>Celular:</label>
-            <input type="number" placeholder="Ex:(99)99999-9999" />
+            <input type="number" placeholder="Ex:(99)99999-9999" name="celular" />
         </div>
     </fieldset>
         
@@ -62,27 +62,27 @@
         <legend>Endereço</legend>
         <div>
             <label>Endereço:</label>
-            <input type="text"/>
+            <input type="text" name="endereço"/>
         </div>
         
         <div>
             <label>Numero:</label>
-            <input type="number" max="999" min="1"/>
+            <input type="number" max="999" min="1" name="numero_do_endereço" />
         </div>
         
         <div>
             <label>Complemento:</label>
-            <input type="text" placeholder="Ex:apto, casa" />
+            <input type="text" placeholder="Ex:apto, casa" name="complemento_do_endereço" />
         </div>
         
         <div>
             <label>Cidade:</label>
-            <input type="text" />
+            <input type="text" name="cidade" />
         </div>
         
         <div>
             <label>Estado:</label>
-            <select>
+            <select name="estado">
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
@@ -116,14 +116,17 @@
         <legend>Anúncio</legend>
         <div>
             <label>Como conheceu o blog do Wal?</label>
-            <textarea maxlength="256" placeholder="Por onde você conheceu o Blog do Wal?"></textarea>
+            <textarea maxlength="256" placeholder="Por onde você conheceu o Blog do Wal?" name="como_conheceu_o_site"></textarea>
         </div>
         
         <div>
             <input type="checkbox" checked>
             <label>Desejo receber informações no meu e-mail</label>
         </div>
-    </fieldset>    
+    </fieldset> 
+    
+    <input type="submit" value="Enviar">
+
     </form>
     
 </body>
