@@ -9,110 +9,121 @@
 <body>
     <form method="GET" action="">
 
-     <div>
-        <label>Login:</label>
-        <input type="text"/>
-     </div>
-
-    <div>
-        <label>Senha:</label>
-        <input type="password"/>
-    </div>
-
-    <div>
-        <label>Nome:</label>
-        <input type="text" placeholder="Ex:Walison" />
-    </div>
-
-    <div>
-        <label>Email:</label>
-        <input type="email " />
-    </div>
-
-    <div>
-        <label>Sexo:</label>
-        <input type="radio" value="Masculino" name="sexo" checked/>
-        <label>Masculino</label>
-        <input type="radio" value="Ferminino" name="sexo"/>
-        <label>Feminino</label>
-    </div>
+    <fieldset>
+        <legend>Conta</legend>
+        <div>
+            <label>Login:</label>
+            <input type="text"/>
+        </div>
+     
+        <div>
+            <label>Senha:</label>
+            <input type="password"/>
+        </div>
+    </fieldset>
     
-    <div>
-        <label>Foto de perfil:</label>
-        <input type="file" accept="image/*"/>
-    </div>
-
-    <div>
-        <label>Data:</label>
-        <input type="date" />
-    </div>
-
-    <div>
-        <label>Celular:</label>
-        <input type="number" placeholder="Ex:(99)99999-9999" />
-    </div>
-
-    <div>
-        <label>Endereço:</label>
-        <input type="text"/>
-    </div>
-
-    <div>
-        <label>Numero:</label>
-        <input type="number" max="999" min="1"/>
-    </div>
-
-    <div>
-        <label>Complemento:</label>
-        <input type="text" placeholder="Ex:apto, casa" />
-    </div>
-
-    <div>
-        <label>Cidade:</label>
-        <input type="text" />
-    </div>
-
-    <div>
-        <label>Estado:</label>
-        <select>
-            <option value="AC">Acre</option>
-            <option value="AL">Alagoas</option>
-            <option value="AP">Amapá</option>
-            <option value="AM">Amazonas</option>
-            <option value="CE">Ceara</option>
-            <option value="DF">Distrito Federal</option>
-            <option value="ES">Espirito Santo</option>
-            <option value="GO">Goiás</option>
-            <option value="MA">Maranhão</option>
-            <option value="MT">Mato Grosso</option>
-            <option value="MS">Mato Grosso do Sul</option>
-            <option value="MG">Minas Gerais</option>
-            <option value="PA">Pará</option>
-            <option value="PR">Paraná</option>
-            <option value="PE">Pernambuco</option>
-            <option value="PB">Piauí</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="RN">Rio Grande do Norte</option>
-            <option value="RS">Rio Grande do Sul</option>
-            <option value="RO">Rondônia</option>
-            <option value="RR">Roraima</option>
-            <option value="SC">Santa Catarina</option>
-            <option value="SP">São Paulo</option>
-            <option value="SP">Sergipe</option>
-            <option value="TO">Tocatins</option>       
-        </select>
-    </div>
-
-    <div>
-        <label>Como conheceu o blog do Wal?</label>
-        <textarea maxlength="256" placeholder="Por onde você conheceu o Blog do Wal?"></textarea>
-    </div>
-
-    <div>
-        <input type="checkbox" checked>
-        <label>Desejo receber informações no meu e-mail</label>
-    </div>
-
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+            <label>Nome:</label>
+            <input type="text" placeholder="Ex:Walison" />
+        </div>
+        
+        <div>
+            <label>Email:</label>
+            <input type="email " />
+        </div>
+        
+        <div>
+            <label>Sexo:</label>
+            <input type="radio" value="Masculino" name="sexo" checked/>
+            <label>Masculino</label>
+            <input type="radio" value="Ferminino" name="sexo"/>
+            <label>Feminino</label>
+        </div>
+        
+        <div>
+            <label>Foto de perfil:</label>
+            <input type="file" accept="image/*"/>
+        </div>
+        
+        <div>
+            <label>Data:</label>
+            <input type="date" />
+        </div>
+        
+        <div>
+            <label>Celular:</label>
+            <input type="number" placeholder="Ex:(99)99999-9999" />
+        </div>
+    </fieldset>
+        
+    <fieldset>
+        <legend>Endereço</legend>
+        <div>
+            <label>Endereço:</label>
+            <input type="text"/>
+        </div>
+        
+        <div>
+            <label>Numero:</label>
+            <input type="number" max="999" min="1"/>
+        </div>
+        
+        <div>
+            <label>Complemento:</label>
+            <input type="text" placeholder="Ex:apto, casa" />
+        </div>
+        
+        <div>
+            <label>Cidade:</label>
+            <input type="text" />
+        </div>
+        
+        <div>
+            <label>Estado:</label>
+            <select>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="CE">Ceara</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PB">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SP">Sergipe</option>
+                <option value="TO">Tocatins</option>       
+            </select>
+        </div> 
+    </fieldset>
+        
+        <fieldset>
+        <legend>Anúncio</legend>
+        <div>
+            <label>Como conheceu o blog do Wal?</label>
+            <textarea maxlength="256" placeholder="Por onde você conheceu o Blog do Wal?"></textarea>
+        </div>
+        
+        <div>
+            <input type="checkbox" checked>
+            <label>Desejo receber informações no meu e-mail</label>
+        </div>
+    </fieldset>    
     </form>
     
 </body>
