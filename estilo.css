@@ -1,3 +1,53 @@
-div {
-    background-color: rgb(255, 255, 255);
+html {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
 }
+
+a:visited, a:link {
+    color: black;
+}
+
+a:active{
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+nav {
+    height: 25px;
+    background-color: rgb(255, 136, 0);
+    padding: 25px;
+    font-style:oblique;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+#redesociais{
+    margin: 10px;
+    letter-spacing: 10px;
+}
+
+#form {
+    text-align: left;
+}
+
+#rodape {
+    height: 50px;
+    background-color: rgb(255, 136, 0);
+    font-style:oblique;
+    padding: 0px 0px 5px 0px;
+    text-align:center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.walison{
+    float: left;
+}
+
+
