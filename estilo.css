@@ -36,7 +36,8 @@ nav {
     height: 50px;
     background-color: rgb(255, 136, 0);
     font-style:oblique;
-    text-align: center;
+    padding: 0px 0px 5px 0px;
+    text-align:center;
     letter-spacing: 2px;
     word-spacing: 5px;
 }
