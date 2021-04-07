@@ -27,6 +27,11 @@ nav {
     word-spacing: 3px;
 }
 
+#redesociais{
+    margin: 10px;
+    letter-spacing: 10px;
+}
+
 #form {
     text-align: left;
 }
@@ -44,3 +49,5 @@ nav {
 .walison{
     float: left;
 }
+
+
