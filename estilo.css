@@ -37,11 +37,11 @@ nav {
     font-size:larger;
     font-style: bolder;
     font-family: 'Courier New', Courier, monospace;
+    height: 25px;
 }
 
 .introducao {
-    margin:100px 0px;
-    text-align: left;
+    
 }
 
 .lightbase{
