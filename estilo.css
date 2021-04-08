@@ -3,11 +3,13 @@ html {
     background-color: rgb(61, 61, 61);
     font-size: medium;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    text-align: center;
+    text-align: left;
+    min-width: auto;
+    min-height:auto;
 }
 
 #introducao {
-    margin: 50px 200px 50px 200px;
+
 }
 
 a:visited, a:link {
