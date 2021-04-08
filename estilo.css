@@ -73,7 +73,13 @@ nav {
     word-spacing: 5px;
 }
 
+.sobremim {
+    text-align: justify;
+    padding: 0px 80px 0px 80px;
+    margin: 40px;
+}
 .walison{
+    padding: 0px 40px 0px 40px;
     float: left;
     width: 300px;
     height:300px;
