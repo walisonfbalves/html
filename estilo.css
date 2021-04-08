@@ -27,21 +27,14 @@ nav {
     height: 25px;
     background-color: rgb(255, 136, 0);
     padding: 25px;
-    font-style:oblique;
     letter-spacing: 1px;
     word-spacing: 3px;
+    border:2px solid;
 }
 
 .walison {
     text-align: left;
-    font-size:larger;
-    font-style: bolder;
-    font-family: 'Courier New', Courier, monospace;
-    height: 25px;
-}
-
-.introducao {
-    
+    font-size: xx-large;
 }
 
 .lightbase{
