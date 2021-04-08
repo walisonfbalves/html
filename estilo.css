@@ -34,6 +34,14 @@ nav {
 
 .walison {
     text-align: left;
+    font-size:larger;
+    font-style: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.introducao {
+    margin:100px 0px;
+    text-align: left;
 }
 
 .lightbase{
