@@ -37,11 +37,12 @@ nav {
 
 .trabalho {
     text-align: left;
-    width: 600px;
+    width: 900px;
     height: 400px;
     margin: 0px 0px 100px 0px;
 }
 #redesociais{
+    text-align: center;
     margin: 10px;
     letter-spacing: 10px;
 }
