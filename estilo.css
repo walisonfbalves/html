@@ -32,8 +32,8 @@ nav {
     border:2px solid;
 }
 
-.walison {
-    text-align: left;
+.home {
+   float: left;
 }
 
 .lightbase{
@@ -62,10 +62,10 @@ nav {
 }
 
 #rodape {
-    height: 50px;
+    height: 75px;
     background-color: rgb(255, 136, 0);
     font-style:oblique;
-    padding: 0px 0px 5px 0px;
+    padding: 0px 0px 0px 0px;
     text-align:center;
     letter-spacing: 2px;
     word-spacing: 5px;
