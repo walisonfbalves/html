@@ -1,6 +1,6 @@
 html {
-    color: white;
-    background-color: rgb(61, 61, 61);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     font-size: medium;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     text-align: left;
@@ -23,6 +23,7 @@ a:hover {
 }
 
 nav {
+    text-align: right;
     height: 25px;
     background-color: rgb(255, 136, 0);
     padding: 25px;
@@ -31,8 +32,13 @@ nav {
     word-spacing: 3px;
 }
 
+.walison {
+    text-align: left;
+}
+
 .lightbase{
     float:right;
+    margin: 0px 10px;
 }
 
 .trabalho {
@@ -67,6 +73,8 @@ nav {
 
 .walison{
     float: left;
+    width: 300px;
+    height:300px;
 }
 
 
